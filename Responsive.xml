@@ -6,22 +6,33 @@
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=1.7.2' type='text/javascript'/>
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js' type='text/javascript'/>
 <script src='http://apis.google.com/js/plusone.js' type='text/javascript'> {lang: &#39;en-US&#39;} </script>
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
     <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'/>
     <b:if cond='data:blog.isMobile'>
       <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
     <b:else/>
       <meta content='width=1100' name='viewport'/>
     </b:if>
     <b:include data='blog' name='all-head-content'/>
-      <meta content='blog, kanthala, new, people, post, science, blogger, personal, technology,FOSS,blogger tricks, blogger tips, blogger tutorials, blogger widgets, SEO guide, make money online, css, html, jQuery tricks' name='keywords'/>
-      <meta content='Kanthala Raghu' name='Author'/>
-      <meta content='all' name='audience'/><meta content='general' name='rating'/>
-      <meta content='English' name='language'/>  
+	<meta content='http://www.kanthalaraghu.com' name='identifier-url'/>
+	<meta content='21 | Internet Activist | Tech Enthusiast | Web Developer | Writer | FOSS Promoter | Linux User | Hoot Owl. I love taking photos Occasionally.' name='abstract'/>
+	<meta content='All' name='robots'/>
+    <meta content='blog, kanthala, new, people, post, science, blogger, personal, technology,FOSS,blogger tricks, blogger tips, blogger tutorials, blogger widgets, SEO guide, make money online, css, html, jQuery tricks raghuvaran, raghu ram, raghu babu, raghuvaran telugu movie  , raghupati raghav, raghu engineering college, raghu engineering college address, raghu engg college' name='keywords'/>
+    <meta content='index, follow' name='robots'/>
+    <meta content='follow' name='Googlebot'/>
+    <meta content='Kanthala Raghu' name='Author'/>
+    <meta content='all' name='audience'/><meta content='general' name='rating'/>
+    <meta content='English' name='language'/>  
     <meta content='english' name='language'/>  
-      <meta content='© 2014 Kanthala Raghu. Some Rights Reserved' name='copyright'/>
-	  <meta content='F7D748786EF0802B8DACBB2505BA9EA6' name='msvalidate.01'/>
+    <meta content='© 2014 Kanthala Raghu. Some Rights Reserved' name='copyright'/>
+	<meta content='G3DyEtXjhmeQAV-DqXJiTgwhKvgpZtFDZnztyb5P_vU' name='google-site-verification'/>
+	<meta content='F7D748786EF0802B8DACBB2505BA9EA6' name='msvalidate.01'/>
     <b:if cond='data:blog.pageType == &quot;index&quot;'>
 <title><data:blog.title/></title>
 <b:else/>
@@ -38,7 +49,7 @@ URL:      www.noaesthetic.com
 
 /* Variable definitions
    ====================
-   <Variable name="keycolor" description="Main Color" type="color" default="#66bbdd" value="#dd8766"/>
+   <Variable name="keycolor" description="Main Color" type="color" default="#66bbdd" value="#66bbdd"/>
 
    <Group description="Page Text" selector="body">
      <Variable name="body.font" description="Font" type="font"
@@ -47,79 +58,79 @@ URL:      www.noaesthetic.com
    </Group>
 
    <Group description="Backgrounds" selector=".body-fauxcolumns-outer">
-     <Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd" value="#dd8766"/>
+     <Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd" value="#66bbdd"/>
      <Variable name="content.background.color" description="Main Background" type="color" default="#ffffff" value="#ffffff"/>
      <Variable name="header.background.color" description="Header Background" type="color" default="transparent" value="transparent"/>
    </Group>
 
    <Group description="Links" selector=".main-outer">
-     <Variable name="link.color" description="Link Color" type="color" default="#2288bb" value="#bb5321"/>
+     <Variable name="link.color" description="Link Color" type="color" default="#2288bb" value="#2187bb"/>
      <Variable name="link.visited.color" description="Visited Color" type="color" default="#888888" value="#888888"/>
-     <Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#ff8632"/>
+     <Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#32aaff"/>
    </Group>
 
    <Group description="Blog Title" selector=".header h1">
      <Variable name="header.font" description="Font" type="font"
          default="normal normal 60px Ubuntu, sans-serif" value="normal normal 60px Copse"/>
-     <Variable name="header.text.color" description="Title Color" type="color" default="#3399bb"  value="#bb5332"/>
+     <Variable name="header.text.color" description="Title Color" type="color" default="#3399bb"  value="#3299bb"/>
    </Group>
 
    <Group description="Blog Description" selector=".header .description">
      <Variable name="description.text.color" description="Description Color" type="color"
-         default="#777777"  value="#777777"/>
+         default="#777777"  value="#cc0000"/>
    </Group>
 
    <Group description="Tabs Text" selector=".tabs-inner .widget li a">
      <Variable name="tabs.font" description="Font" type="font"
-         default="normal normal 14px Ubuntu, sans-serif" value="normal normal 14px Copse"/>
-     <Variable name="tabs.text.color" description="Text Color" type="color" default="#999999" value="#999999"/>
+         default="normal normal 14px Ubuntu, sans-serif" value="normal normal 14px Molengo"/>
+     <Variable name="tabs.text.color" description="Text Color" type="color" default="#999999" value="#666666"/>
      <Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000" value="#000000"/>
    </Group>
 
    <Group description="Tabs Background" selector=".tabs-outer .PageList">
-     <Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5" value="#f5f5f5"/>
-     <Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee" value="#eeeeee"/>
+     <Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5" value="#eeeeee"/>
+     <Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee" value="#ffffff"/>
    </Group>
 
    <Group description="Post Title" selector="h3.post-title, .comments h4">
      <Variable name="post.title.font" description="Font" type="font"
-         default="normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 24px Josefin Sans"/>
+         default="normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 24px Cantarell"/>
    </Group>
 
    <Group description="Date Header" selector=".date-header">
      <Variable name="date.header.color" description="Text Color" type="color"
-         default="$(body.text.color)" value="#000000"/>
+         default="$(body.text.color)" value="#cc0000"/>
      <Variable name="date.header.background.color" description="Background Color" type="color"
-         default="transparent" value="transparent"/>
+         default="transparent" value="#f9f9f9"/>
    </Group>
 
    <Group description="Post Footer" selector=".post-footer">
-     <Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666" value="#666666"/>
+     <Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666" value="#000000"/>
      <Variable name="post.footer.background.color" description="Background Color" type="color"
-         default="#f9f9f9" value="#f9f9f9"/>
+         default="#f9f9f9" value="transparent"/>
      <Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#eeeeee" value="#eeeeee"/>
    </Group>
 
    <Group description="Gadgets" selector="h2">
      <Variable name="widget.title.font" description="Title Font" type="font"
-        default="normal bold 11px Ubuntu, sans-serif" value="normal normal 16px Copse"/>
-     <Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000" value="#000000"/>
+        default="normal bold 11px Ubuntu, sans-serif" value="normal normal 16px Cantarell"/>
+     <Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000" value="#cc0000"/>
      <Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999" value="#999999"/>
    </Group>
 
    <Group description="Images" selector=".main-inner">
-     <Variable name="image.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+     <Variable name="image.background.color" description="Background Color" type="color" default="#ffffff" value="#f9f9f9"/>
      <Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee" value="#eeeeee"/>
-     <Variable name="image.text.color" description="Caption Text Color" type="color" default="$(body.text.color)" value="#000000"/>
+     <Variable name="image.text.color" description="Caption Text Color" type="color" default="$(body.text.color)" value="#666666"/>
    </Group>
 
    <Group description="Accents" selector=".content-inner">
      <Variable name="body.rule.color" description="Separator Line Color" type="color" default="#eeeeee" value="#eeeeee"/>
-     <Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="$(body.rule.color)" value="#e9e9e9"/>
+     <Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="$(body.rule.color)" value="#eeeeee"/>
    </Group>
 
    <Variable name="body.background" description="Body Background" type="background"
-       color="$(body.background.color)" default="$(color) none repeat scroll top left" value="$(color) url(http://2.bp.blogspot.com/-H1aLBnJcl0g/VOrE4E9BNdI/AAAAAAAACfc/g3bB7rXawsI/s0/wild_plants_1-wallpaper-1366x768.jpg) no-repeat fixed top center"/>
+       color="$(body.background.color)" default="$(color) none repeat scroll top left" value="#000000 url(//themes.googleusercontent.com/image?id=1au0Ex-nW8qgAN9nqocWIoftRd4qJt8epMq8FgrMfnzoKWDYFCOMvYJ5M2-f6ZhHjz8it) no-repeat fixed top center /* Credit: hdoddema (http://www.istockphoto.com/googleimages.php?id=357703&platform=blogger) */"/>
    <Variable name="body.background.override" description="Body Background Override" type="string" default="" value=""/>
 
    <Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
@@ -182,7 +193,7 @@ URL:      www.noaesthetic.com
    <Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
        default="transparent none repeat scroll top left" value="transparent none repeat scroll top left"/>
    <Variable name="mobile.background.size" description="Mobile Background Size" type="string" default="auto" value="auto"/>
-   <Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff"  value="#ffffff"/>
+   <Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff"  value="#eeeeee"/>
 
    <Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left" value="left"/>
    <Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right" value="right"/>
@@ -191,8 +202,8 @@ URL:      www.noaesthetic.com
 /* Content
 ----------------------------------------------- */
 body {
-  font-family: 'Cabin', sans-serif;
-  font-size: 15px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
   color: $(body.text.color);
   background: $(body.background);
   padding: 0 $(content.shadow.spread) $(content.shadow.spread) $(content.shadow.spread);
@@ -678,7 +689,52 @@ cursor: pointer;
 }
 .sticky-gap {
 height: 80px; clear:both;
-}]]></b:skin>
+}
+ /* Social icons for Blogger
+----------------------------------------------- */
+
+#social-icons {
+margin-bottom:-30px;
+height:50px;
+width:100%;
+clear:both;
+z-index: 2;
+position: relative;
+}
+.social-media-icons {
+display:table
+}
+.social-media-icons ul {
+text-align:right;
+padding:5px 5px 0 0
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+.social-media-icons ul {
+margin-bottom:0;
+padding:0;
+float:right;
+}
+.social-media-icons li.media_icon {
+margin-left:6px;
+padding-left:0 !important;
+background:none !important;
+display:inline;
+float:left;
+}
+.social-media-icons li:hover {
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(-360deg);
+-moz-transition: all 0.5s ease-in-out;
+-webkit-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+]]></b:skin>
 
     <b:template-skin>
       <b:variable default='960px' name='content.width' type='length' value='960px'/>
@@ -795,7 +851,7 @@ input id=&#39;toggleButton&#39; type=&#39;button&#39; value=&#39;&#9650;&#39;/&g
         gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
           if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
             gapi.iframes.getContext().openChild({
-                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\0751009850237236324185\46blogName\75Kanthala+Raghu\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75DISABLED\46layoutType\75LAYOUTS\46searchRoot\75http://www.kanthalaraghu.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://www.kanthalaraghu.com/\46blogFollowUrl\75https://plus.google.com/112169579644684467298\46vt\75-2897167247487596843&#39;,
+                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\0751009850237236324185\46blogName\75Kanthala+Raghu\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75DISABLED\46layoutType\75LAYOUTS\46searchRoot\75http://www.kanthalaraghu.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://www.kanthalaraghu.com/\46vt\75-2897167247487596843&#39;,
                 where: document.getElementById(&quot;navbar-iframe-container&quot;),
                 id: &quot;navbar-iframe&quot;
             });
@@ -879,6 +935,18 @@ head.appendChild(script);
     <div class='fauxborder-left header-fauxborder-left'>
     <div class='fauxborder-right header-fauxborder-right'/>
     <div class='region-inner header-inner'>
+ <div class='social-media-icons' id='social-icons'>
+<ul>
+
+<li class='media_icon'><a href='http://facebook.com/kanthalaraghu0083'><img border='0' src='http://2.bp.blogspot.com/-hJlnVDP-uXk/UaKErpYECEI/AAAAAAAADhA/DA59rR8trrA/s1600/Facebook.png'/></a></li>
+
+<li class='media_icon'><a href='http://twitter.com/#!/kanthalaraghu'><img border='0' src='http://3.bp.blogspot.com/-x7YZ7aKIxM8/UaKErq0FZlI/AAAAAAAADhE/3zNd_IFPT8g/s1600/Twitter.png'/></a></li>
+
+<li class='media_icon'><a href='https://plus.google.com/+kanthalaraghu/about'><img border='0' src='http://1.bp.blogspot.com/-DNSrkD8pl14/UaKEsW_JdfI/AAAAAAAADhU/S0jGIdQuO4M/s1600/googleplus.png'/></a></li>
+
+<li class='media_icon'><a href='http://www.kanthalaraghu.com/feeds/posts/default'><img border='0' src='http://2.bp.blogspot.com/-H3nOjhn9wk8/UaKErtM0_mI/AAAAAAAADg8/vJ8tEgRcl5M/s1600/RSS.png'/></a></li>
+
+</ul></div>
       <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
         <b:widget id='Header1' locked='false' title='Kanthala Raghu (Header)' type='Header'>
           <b:includable id='main'>
@@ -970,7 +1038,7 @@ head.appendChild(script);
       <b:section class='tabs' id='crosscol' maxwidgets='1' showaddelement='yes'>
         <b:widget id='PageList1' locked='false' title='Pages' type='PageList'>
           <b:includable id='main'>
-  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
   <div class='widget-content'>
     <b:if cond='data:mobile'>
       <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
@@ -1238,12 +1306,10 @@ head.appendChild(script);
               <b:includable id='comment_picker' var='post'>
   <b:if cond='data:post.commentSource == 1'>
     <b:include data='post' name='iframe_comments'/>
+  <b:elseif cond='data:post.showThreadedComments'/>
+    <b:include data='post' name='threaded_comments'/>
   <b:else/>
-    <b:if cond='data:post.showThreadedComments'>
-      <b:include data='post' name='threaded_comments'/>
-    <b:else/>
-      <b:include data='post' name='comments'/>
-    </b:if>
+    <b:include data='post' name='comments'/>
   </b:if>
 </b:includable>
               <b:includable id='comments' var='post'>
@@ -1373,11 +1439,7 @@ head.appendChild(script);
     <b:else/> <!--Post feed links -->
     <div class='post-feeds'>
       <b:loop values='data:posts' var='post'>
-        <b:if cond='data:post.allowComments'>
-          <b:if cond='data:post.feedLinks'>
-            <b:include data='post.feedLinks' name='feedLinksBody'/>
-          </b:if>
-        </b:if>
+        <b:include cond='data:post.allowComments and data:post.feedLinks' data='post.feedLinks' name='feedLinksBody'/>
       </b:loop>
     </div>
   </b:if>
@@ -1559,7 +1621,6 @@ solid #1A2638;border-radius:10px; margin-bottom:10px;padding:10px;text-align:cen
 </b:if>
             <div style='clear: both;'/> <!-- clear for photos floats -->
           </div>
-
           <div class='post-footer'>
             <div class='post-footer-line post-footer-line-1'>
               <span class='post-author vcard'>
@@ -1756,6 +1817,35 @@ solid #1A2638;border-radius:10px; margin-bottom:10px;padding:10px;text-align:cen
       </b:if>
     </div>
   </div>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+
+<br style='clear:both;'/>
+<!--Related Posts Start-->
+<style type='text/css'>
+#related-posts h4{margin:5px 0 0;font-weight:bold;line-height:1.2em;font-size:16px;}
+#related-posts ul,#related-posts li{overflow:hidden;padding:0;margin:0;list-style:none}
+#related-posts ul{margin-top:10px}
+#related-posts li{float:left;width:48%;padding:5px}
+#related-posts .relimg{float:left;margin:0 5px 5px 0;padding:3px;border:1px solid silver}
+#related-posts p{margin:5px 0 0}
+#relloading{width:100%;min-height:150px;background:transparent url(http://1.bp.blogspot.com/-VIzmxDnV8_Y/UqH6yMEeZDI/AAAAAAAABvU/c4NmWKUB_aw/s320/loading.gif) no-repeat center;display:block;text-indent:-9999px}
+</style>
+ <script src='https://googledrive.com/host/0B9VnchIrte6hOUtZNXpXTm90TE0' type='text/javascript'/>
+<div id='related-posts'/>
+ 
+<script type='text/javascript'>
+//<![CDATA[
+relatedposts({
+rel_title: "You May Also Like",
+rel_posts: 2,
+rel_thumb: 70
+});
+//]]>
+</script>
+<!--Related Posts End-->
+</b:if>
+
+
 </b:includable>
               <b:includable id='postQuickEdit' var='post'>
   <b:if cond='data:post.editUrl'>
@@ -2023,19 +2113,6 @@ solid #1A2638;border-radius:10px; margin-bottom:10px;padding:10px;text-align:cen
     </div>
     </div>
   </div>
-</b:includable>
-            </b:widget>
-            <b:widget id='HTML2' locked='false' title='' type='HTML'>
-              <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
 </b:includable>
             </b:widget>
           </b:section>
@@ -2338,7 +2415,7 @@ tripleflapInit();
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML5' locked='false' title='' type='HTML'>
+  <b:widget id='HTML5' locked='false' title='Subscribe' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -2351,7 +2428,7 @@ tripleflapInit();
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
-  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
+  <b:widget id='PopularPosts1' locked='false' title='Interesting Reads' type='PopularPosts'>
     <b:includable id='main'>
   <b:if cond='data:title'><h2><data:title/></h2></b:if>
   <div class='widget-content popular-posts'>
@@ -2404,15 +2481,15 @@ tripleflapInit();
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='PopularPosts2' locked='false' title='Featured Posts' type='PopularPosts'>
+  <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts'>
     <b:includable id='main'>
-  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
   <div class='widget-content popular-posts'>
     <ul>
       <b:loop values='data:posts' var='post'>
       <li>
-        <b:if cond='data:showThumbnails == &quot;false&quot;'>
-          <b:if cond='data:showSnippets == &quot;false&quot;'>
+        <b:if cond='!data:showThumbnails'>
+          <b:if cond='!data:showSnippets'>
             <!-- (1) No snippet/thumbnail -->
             <a expr:href='data:post.href'><data:post.title/></a>
           <b:else/>
@@ -2421,34 +2498,21 @@ tripleflapInit();
             <div class='item-snippet'><data:post.snippet/></div>
           </b:if>
         <b:else/>
-          <b:if cond='data:showSnippets == &quot;false&quot;'>
-            <!-- (3) Show only thumbnails -->
-            <div class='item-thumbnail-only'>
-              <b:if cond='data:post.thumbnail'>
-                <div class='item-thumbnail'>
-                  <a expr:href='data:post.href' target='_blank'>
-                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
-                  </a>
-                </div>
-              </b:if>
-              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-            </div>
-            <div style='clear: both;'/>
-          <b:else/>
-            <!-- (4) Show snippets and thumbnails -->
-            <div class='item-content'>
-              <b:if cond='data:post.thumbnail'>
-                <div class='item-thumbnail'>
-                  <a expr:href='data:post.href' target='_blank'>
-                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
-                  </a>
-                </div>
-              </b:if>
-              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
+          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
+            <b:if cond='data:post.thumbnail'>
+              <div class='item-thumbnail'>
+                <a expr:href='data:post.href' target='_blank'>
+                  <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                </a>
+              </div>
+            </b:if>
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <b:if cond='data:showSnippets'>
               <div class='item-snippet'><data:post.snippet/></div>
-            </div>
-            <div style='clear: both;'/>
-          </b:if>
+            </b:if>
+          </div>
+          <div style='clear: both;'/>
         </b:if>
       </li>
       </b:loop>
@@ -2483,21 +2547,15 @@ tripleflapInit();
   </b:widget>
   <b:widget id='BlogArchive1' locked='false' title='Archive' type='BlogArchive'>
     <b:includable id='main'>
-  <b:if cond='data:title'>
+  <b:if cond='data:title != &quot;&quot;'>
     <h2><data:title/></h2>
   </b:if>
   <div class='widget-content'>
   <div id='ArchiveList'>
   <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
-    <b:if cond='data:style == &quot;HIERARCHY&quot;'>
-     <b:include data='data' name='interval'/>
-    </b:if>
-    <b:if cond='data:style == &quot;FLAT&quot;'>
-      <b:include data='data' name='flat'/>
-    </b:if>
-    <b:if cond='data:style == &quot;MENU&quot;'>
-      <b:include data='data' name='menu'/>
-    </b:if>
+    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
+    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
+    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
   </div>
   </div>
   <b:include name='quickedit'/>
@@ -2519,12 +2577,8 @@ tripleflapInit();
           <b:include data='i' name='toggle'/>
           <a class='post-count-link' expr:href='data:i.url'><data:i.name/></a>
             <span class='post-count' dir='ltr'>(<data:i.post-count/>)</span>
-          <b:if cond='data:i.data'>
-            <b:include data='i.data' name='interval'/>
-          </b:if>
-          <b:if cond='data:i.posts'>
-            <b:include data='i.posts' name='posts'/>
-          </b:if>
+          <b:include cond='data:i.data' data='i.data' name='interval'/>
+          <b:include cond='data:i.posts' data='i.posts' name='posts'/>
         </li>
       </ul>
   </b:loop>
@@ -2539,46 +2593,103 @@ tripleflapInit();
 </b:includable>
     <b:includable id='posts' var='posts'>
   <ul class='posts'>
-    <b:loop values='data:posts' var='i'>
-      <li><a expr:href='data:i.url'><data:i.title/></a></li>
+    <b:loop values='data:posts' var='post'>
+      <li><a expr:href='data:post.url'><data:post.title/></a></li>
     </b:loop>
   </ul>
 </b:includable>
     <b:includable id='toggle' var='interval'>
-  <b:if cond='data:interval.toggleId'>
-  <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
-    <a class='toggle' href='javascript:void(0)'>
-      <span class='zippy toggle-open'>&#9660;&#160;</span>
-    </a>
-  <b:else/>
-    <a class='toggle' href='javascript:void(0)'>
-      <span class='zippy'>
-        <b:if cond='data:blog.languageDirection == &quot;rtl&quot;'>
-          &#9668;&#160;
-        <b:else/>
-          &#9658;&#160;
-        </b:if>
-      </span>
-    </a>
-  </b:if>
- </b:if>
+  <a class='toggle' href='javascript:void(0)'>
+    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+        &#9660;&#160;
+      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+        &#9668;&#160;
+      <b:else/>
+        &#9658;&#160;
+      </b:if>
+    </span>
+  </a>
 </b:includable>
   </b:widget>
-</b:section-contents><b:section-contents id='footer-1'/><b:section-contents id='footer-2-1'>
-  <b:widget id='HTML4' locked='false' title='Disclaimer' type='HTML'>
+  <b:widget id='Profile1' locked='false' title='About Me' type='Profile'>
+    <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+    <b:if cond='data:team == &quot;true&quot;'> <!-- team blog profile -->
+      <ul>
+        <b:loop values='data:authors' var='i'>
+          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
+        </b:loop>
+      </ul>
+
+    <b:else/> <!-- normal blog profile -->
+
+      <b:if cond='data:photo.url != &quot;&quot;'>
+        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
+      </b:if>
+
+      <dl class='profile-datablock'>
+        <dt class='profile-data'>
+          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
+            <data:displayname/>
+          </a>
+          <b:if cond='data:hasgoogleprofile'>
+            <br/>
+            <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
+          </b:if>
+        </dt>
+
+        <b:if cond='data:showlocation == &quot;true&quot;'>
+          <dd class='profile-data'><data:location/></dd>
+        </b:if>
+
+        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
+      </dl>
+      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
+    </b:if>
+
+     <b:include name='quickedit'/>
+    </div>
+  </b:includable>
+  </b:widget>
+  <b:widget id='PlusFollowers1' locked='false' title='Google+ Followers' type='PlusFollowers'>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <b:if cond='data:profileUrl != &quot;&quot;'>
+      <div class='g-plus' data-action='followers' data-source='blogger:blog:followers' expr:data-height='data:height' expr:data-href='data:profileUrl' expr:data-theme='data:theme' expr:data-width='data:width'/>
+      <script type='text/javascript'>
+        window.___gcfg = {&#39;lang&#39;: &#39;<data:language/>&#39;};
+      </script>
+    </b:if>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML100' locked='false' title='' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
   </b:if>
   <div class='widget-content'>
-    <data:content/>
+<script>
+way2themes(
+  &#39;<data:content/>&#39;,&#39;8&#39;,&#39;carousel&#39;
+);
+</script>
+    
   </div>
 
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML3' locked='false' title='' type='HTML'>
+</b:section-contents><b:section-contents id='footer-1'/><b:section-contents id='footer-2-1'>
+  <b:widget id='HTML4' locked='false' title='Disclaimer' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -2597,7 +2708,7 @@ tripleflapInit();
   <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
   <div class='widget-content'>
     <div class='follow-by-email-inner'>
-      <form action='http://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;http://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
+      <form action='https://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
         <table width='100%'>
           <tr>
             <td>
@@ -2618,10 +2729,23 @@ tripleflapInit();
   </span>
 </b:includable>
   </b:widget>
+  <b:widget id='HTML1' locked='false' title='' type='HTML'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
 </b:section-contents><b:section-contents id='footer-2-3'>
   <b:widget id='Stats1' locked='false' title='Total hits' type='Stats'>
     <b:includable id='main'>
-  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
   <div class='widget-content'>
     <!-- Content is going to be visible when data will be fetched from server. -->
     <div expr:id='data:widget.instanceId + &quot;_content&quot;' style='display: none;'>
@@ -2629,40 +2753,11 @@ tripleflapInit();
       <b:if cond='data:showSparkline'>
         <img alt='Sparkline' expr:id='data:widget.instanceId + &quot;_sparkline&quot;' height='30' width='75'/>
       </b:if>
-      <b:if cond='data:showGraphicalCounter'>
-        <span class='counter-wrapper graph-counter-wrapper' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'/>
-      <b:else/>
-        <span class='counter-wrapper text-counter-wrapper' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'/>
-      </b:if>
+      <span expr:class='&quot;counter-wrapper &quot; + (data:showGraphicalCounter ? &quot;graph-counter-wrapper&quot; : &quot;text-counter-wrapper&quot;)' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'>
+      </span>
       <b:include name='quickedit'/>
     </div>
   </div>
-</b:includable>
-  </b:widget>
-  <b:widget id='HTML9' locked='false' title='' type='HTML'>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='HTML8' locked='false' title='' type='HTML'>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
 </b:section-contents></html>
